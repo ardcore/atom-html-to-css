@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "HTML-to-CSS: Generate",
+        "command": "html-to-css:generate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "html-to-css",
+          "submenu": [
+            {
+              "label": "Generate",
+              "command": "html-to-css:generate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "html-to-css",
   "main": "./lib/html-to-css",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [],
   "author": "Szymon Pilkowski <szymon.pilkowski@gmail.com>",

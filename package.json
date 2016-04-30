@@ -1,7 +1,7 @@
 {
   "name": "html-to-css",
   "main": "./lib/html-to-css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate CSS classes from HTML structure",
   "keywords": [
     "html",

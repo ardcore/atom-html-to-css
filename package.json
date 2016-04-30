@@ -2,8 +2,8 @@
   "name": "html-to-css",
   "main": "./lib/html-to-css",
   "version": "0.1.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "description": "Generate CSS classes from HTML structure",
+  "keywords": ["html", "css", "bem", "productivity"],
   "author": "Szymon Pilkowski <szymon.pilkowski@gmail.com>",
   "activationCommands": {
     "atom-workspace": "html-to-css:generate"

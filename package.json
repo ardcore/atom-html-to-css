@@ -19,6 +19,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "htmlparser2": "^3.9.0"
+    "htmlparser2": "^3.9.0",
+    "partial-any": "0.0.2"
   }
 }

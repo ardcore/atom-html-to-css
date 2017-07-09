@@ -2,8 +2,16 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "HTML-to-CSS: Generate",
+        "label": "HTML-to-CSS: Generate (IDs and Classes)",
         "command": "html-to-css:generate"
+      },
+      {
+        "label": "HTML-to-CSS: Generate (Classes Only)",
+        "command": "html-to-css:generateClasses"
+      },
+      {
+        "label": "HTML-to-CSS: Generate (IDs Only)",
+        "command": "html-to-css:generateIDs"
       }
     ]
   },
@@ -15,8 +23,16 @@
           "label": "html-to-css",
           "submenu": [
             {
-              "label": "Generate",
+              "label": "Generate (IDs and Classes)",
               "command": "html-to-css:generate"
+            },
+            {
+              "label": "Generate (Classes Only)",
+              "command": "html-to-css:generateClasses"
+            },
+            {
+              "label": "Generate (IDs Only)",
+              "command": "html-to-css:generateIDs"
             }
           ]
         }

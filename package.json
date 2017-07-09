@@ -11,8 +11,11 @@
   ],
   "author": "Szymon Pilkowski <szymon.pilkowski@gmail.com>",
   "activationCommands": {
-    "atom-workspace": "html-to-css:generate"
-  },
+    "atom-workspace": [
+      "html-to-css:generate",
+      "html-to-css:generateClasses",
+      "html-to-css:generateIDs"
+  ]},
   "repository": "https://github.com/ardcore/atom-html-to-css",
   "license": "MIT",
   "engines": {
@@ -20,6 +23,7 @@
   },
   "dependencies": {
     "htmlparser2": "^3.9.0",
-    "partial-any": "0.0.2"
+    "partial-any": "0.0.2",
+    "stringy": "^0.1.0"
   }
 }
